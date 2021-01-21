@@ -3,11 +3,17 @@ class TweetsController < ApplicationController
     @tweets = Tweet.all
   end
 
-  
+  def new
+    @tweet = Tweet.new
+  end
+
+  def create
+    Tweet.create(tweet_params)
+  end
 
   private
 
-  def tweet_prams
-    params.require(:tweet).permit(:image, :text).merge(user_id: current_user.id)
+  def tweet_params
+    params.require(:tweet).permit(:image, :text, :name).merge(user_id: current_user.id)
   end
 end
