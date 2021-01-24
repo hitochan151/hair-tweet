@@ -17,6 +17,7 @@
 |Column |Type        |Options                         |
 |-------|------------|--------------------------------|
 | text  | string     | null: false                    |
+| image | text       | null: false                    |
 | user  | references | null: false, foreign_key: true |
 
 ### Association
