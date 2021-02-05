@@ -56,8 +56,8 @@ hair-tweet
 
 
 # GIF
-![GIF](https://gyazo.com/4ebc7cc93ea144fdc9e83771753f91b8)
-![GIF](https://gyazo.com/3674e35098ff432097ece222d73faa3b)
+![demo](https://i.gyazo.com/b5e5f864a366dd99632ff03feeec0d46.gif)
+![demo](https://i.gyazo.com/66578af8cb642cb803ca342370cef494.gif)
 
 
 
